@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Шар_1" data-name="Шар 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171 236.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed077b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #c14672;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="85.14" y1="20.5" x2="85.14" y2="1.5"/>
+  <g>
+    <path class="cls-4" d="M120.64,213.56c0,11.84-7.95,21.44-17.75,21.44h0c-9.8,0-17.75-9.6-17.75-21.44V21"/>
+    <path class="cls-1" d="M85.5,20.5C39.11,20.5,1.5,58.11,1.5,104.5H169.5c0-46.39-37.61-84-84-84Z"/>
+    <path class="cls-3" d="M85.64,97c19.31,0,36.63,2.52,48.53,6.5h.55c0-45.56-22.04-82.5-49.22-82.5S36.28,57.94,36.28,103.5h.83c11.9-3.98,29.23-6.5,48.53-6.5Z"/>
+  </g>
+</svg>

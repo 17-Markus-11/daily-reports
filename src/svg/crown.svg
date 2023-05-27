@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Шар_1" data-name="Шар 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338 194">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffff1f;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #000202;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #f91e08;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #fa0;
+      }
+
+      .cls-4 {
+        fill: #18a6d1;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" x="48.69" y="166.43" width="239.17" height="25.57"/>
+  <polygon class="cls-4" points="169.38 98.76 169.36 98.76 169.37 98.74 169.38 98.76"/>
+  <polygon class="cls-4" points="169.38 98.76 169.36 98.76 169.37 98.74 169.38 98.76"/>
+  <polygon class="cls-4" points="83.75 93.18 84.85 94.24 83.12 94.24 83.75 93.18"/>
+  <polygon class="cls-4" points="169.38 98.76 169.36 98.76 169.37 98.74 169.38 98.76"/>
+  <path class="cls-1" d="M253.85,91.24L213.81,22.81l-41.81,71.44h-5.26L124.93,22.81l-41.18,70.37,1.1,1.07h-1.73l.63-1.07L16.9,28.07l15.43,66.17h-.26l16.62,72.19,239.17-2.26,17.2-61.66h.14l20.23-76.7-71.59,65.43Zm-84.49,7.51v-.02s.01,.02,.01,.02h-.01Z"/>
+  <polygon class="cls-4" points="84.85 94.24 83.12 94.24 83.75 93.18 84.85 94.24"/>
+  <ellipse class="cls-2" cx="124.92" cy="12.66" rx="11.2" ry="11.66"/>
+  <ellipse class="cls-2" cx="12.2" cy="16.42" rx="11.2" ry="11.66"/>
+  <ellipse class="cls-2" cx="325.8" cy="16.42" rx="11.2" ry="11.66"/>
+  <ellipse class="cls-2" cx="214.52" cy="12.66" rx="11.2" ry="11.66"/>
+</svg>

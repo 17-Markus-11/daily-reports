@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Шар_1" data-name="Шар 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325 383">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill: #87f4f1;
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #f4f425;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="166.5" y1="196.5" x2="166.5" y2="380.5"/>
+  <line class="cls-1" x1="108.5" y1="380.5" x2="224.5" y2="380.5"/>
+  <ellipse class="cls-3" cx="283" cy="79.5" rx="39.5" ry="41"/>
+  <polygon class="cls-2" points="166.74 197.46 288.5 79.5 44.98 79.5 166.74 197.46"/>
+  <line class="cls-1" x1="32.5" y1="2.5" x2="81.5" y2="77.5"/>
+  <line class="cls-1" x1="32.5" y1="2.5" x2="2.5" y2="2.5"/>
+</svg>

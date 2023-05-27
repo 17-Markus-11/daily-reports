@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="glove" data-name="Шар 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 243.47 266.7">
+  <defs>
+    <style>
+      .glove-1, .glove-2 {
+        fill: none;
+      }
+
+      .glove-1, .glove-2, .glove-3, .glove-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .glove-1, .glove-3, .glove-4 {
+        stroke: #000;
+      }
+
+      .glove-2 {
+        stroke: #f2f7f9;
+      }
+
+      .glove-3 {
+        fill: #8cd4ea;
+      }
+
+      .glove-4 {
+        fill: #0594cc;
+      }
+    </style>
+  </defs>
+  <path class="glove-4" d="M240.49,78.05l-.52,1.7c-3.67,12.05-16.48,18.82-28.64,15.12l-10.13-3.08-37.42,123.01c-11.34,37.27-51.01,58.22-88.61,46.78-28.95-8.81-45.33-39.2-36.6-67.9l21.18-69.62-15.28,12.73c-6.93,5.77-16.04,7.29-24.12,4.83-4.62-1.41-8.9-4.11-12.25-8.06-9.2-10.86-7.82-27.02,3.08-36.1l55.82-46.49-6.91-2.1c-12.15-3.7-19.03-16.46-15.37-28.51l.52-1.7C48.9,6.6,61.72-.17,73.87,3.53L225.12,49.54c12.15,3.7,19.03,16.46,15.37,28.51Z"/>
+  <line class="glove-1" x1="67.12" y1="51" x2="201.2" y2="91.79"/>
+  <rect class="glove-3" x="37.81" y="25.37" width="206.67" height="46.1" rx="23.05" ry="23.05" transform="translate(20.2 -38.98) rotate(16.92)"/>
+  <line class="glove-2" x1="120.71" y1="149.28" x2="101.71" y2="211.76"/>
+  <line class="glove-2" x1="100.43" y1="155.73" x2="121.15" y2="203.91"/>
+  <line class="glove-2" x1="86.52" y1="191.08" x2="136.38" y2="168.39"/>
+  <line class="glove-2" x1="85.84" y1="172.52" x2="130.79" y2="186.77"/>
+</svg>

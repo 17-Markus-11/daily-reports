@@ -6,14 +6,25 @@
     z-index: -1;
     transform-origin: center;
     animation-duration: 2s;
-    animation-name: swing;
     animation-iteration-count: infinite;
 }
 
+.Swing {
+    animation-name: swing;
+}
+
+.SwingOposite {
+    animation-name: swingOposite;
+}
+
 @keyframes swing {
-    0% { transform: rotate(0); }
-    25% { transform: rotate(30deg); }
-    50% { transform: rotate(0); }
-    75% { transform: rotate(-30deg); }
-    100% { transform: rotate(0); }
+    0% { transform: rotate(30deg); }
+    50% { transform: rotate(-30deg); }
+    100% { transform: rotate(30deg); }
+}
+
+@keyframes swingOposite {
+    0% { transform: rotate(-30deg); }
+    50% { transform: rotate(30deg); }
+    100% { transform: rotate(-30deg); }
 }

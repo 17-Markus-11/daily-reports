@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.pickerTop, .pickerBottom {
+    height: 10px;
+    width: 21px;
+    border: solid 1px white;
+    position: relative;
+    background-color: #191919;
+}
+
+.pickerTop {
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
+}
+
+.pickerBottom {
+    border-radius: 0 0 4px 4px;
+    border-top: none;
+}
+
+.pickerTop span {
+    position: absolute;
+    top: -9px;
+    left: 4px;
+}
+
+.pickerBottom span {
+    position: absolute;
+    bottom: -5px;
+    left: 7px;
+}
+
+.data {
+    height: 25px;
+    width: 50px;
+    border: solid 1px white;
+    border-radius: 3px;
+    background-color: #090909;
+    /* display: flex;
+    align-items: center; */
+}
+
+.data span {
+    font-weight: 500;
+}

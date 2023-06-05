@@ -5,3 +5,17 @@
   display: flex;
   justify-content: center;
 }
+
+.AppContent {
+  z-index: 1;
+  margin: 20px;
+  width: 800px;
+  background-color: rgba(54, 54, 54, 0.7);
+  border: solid 2px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: white;
+}

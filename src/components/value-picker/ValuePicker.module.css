@@ -49,3 +49,9 @@
 .data span {
     font-weight: 500;
 }
+
+.unit {
+    font-weight: 300;
+    font-size: small;
+    margin-left: 4px;
+}

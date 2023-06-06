@@ -7,5 +7,6 @@ export interface ReportItem {
     sports: number,
     distance: number,
     cooking: number,
-    money: number
+    money: number,
+    arePenaltiesApply: boolean
 }

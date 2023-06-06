@@ -11,6 +11,7 @@ type Props = {
     type: ValuePickerTypes,
     value: number,
     step: number,
+    unit: string | null,
     onChange: (value: number) => void
 }
 
@@ -69,6 +70,10 @@ class ValuePicker extends Component<Props> {
                 
                 <div className={style.data}>
                     <span>{this.getDisplayValueByType()}</span>
+                    {
+                        this.props.unit &&
+                            <span className={style.unit}>{this.props.unit}</span>
+                    }
                 </div>
 
                 {

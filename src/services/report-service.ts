@@ -5,7 +5,7 @@ const REPORT_SERVICE_ROUTE = "reports";
 
 const reportService = {
     getReports(): Promise<Array<ReportItem>> {
-        return Api.get<Array<ReportItem>>(`${REPORT_SERVICE_ROUTE}`).then(res => res.data);
+        return Api.get<Array<ReportItem>>(`${REPORT_SERVICE_ROUTE}`).then(res => res.data.sort((a, b) => b.date - a.date));
     },
 
     editReport(id: string, report: ReportItem): Promise<ReportItem> {

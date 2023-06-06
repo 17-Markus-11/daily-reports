@@ -1,4 +1,4 @@
-export default [
+[
     {
         "wakeUp": 540,
         "goToSleep": 0,
@@ -8,7 +8,8 @@ export default [
         "distance": 2,
         "money": 150,
         "date": 1685923200,
-        "id": "12"
+        "arePenaltiesApply": false,
+        "id": "old-12"
     },
     {
         "wakeUp": 540,
@@ -19,7 +20,8 @@ export default [
         "distance": 2,
         "money": 100,
         "date": 1685836800,
-        "id": "11"
+        "arePenaltiesApply": false,
+        "id": "old-11"
     },
     {
         "wakeUp": 540,
@@ -30,7 +32,8 @@ export default [
         "distance": 2,
         "money": 110,
         "date": 1685750400,
-        "id": "10"
+        "arePenaltiesApply": false,
+        "id": "old-10"
     },
     {
         "wakeUp": 540,
@@ -41,7 +44,8 @@ export default [
         "distance": 2,
         "money": 140,
         "date": 1685664000,
-        "id": "9"
+        "arePenaltiesApply": false,
+        "id": "old-9"
     },
     {
         "wakeUp": 510,
@@ -52,7 +56,8 @@ export default [
         "distance": 4,
         "money": 30,
         "date": 1685577600,
-        "id": "8"
+        "arePenaltiesApply": true,
+        "id": "old-8"
     },
     {
         "wakeUp": 450,
@@ -63,7 +68,8 @@ export default [
         "distance": 4,
         "money": 110,
         "date": 1685491200,
-        "id": "7"
+        "arePenaltiesApply": true,
+        "id": "old-7"
     },
     {
         "wakeUp": 480,
@@ -74,7 +80,8 @@ export default [
         "distance": 5,
         "money": 20,
         "date": 1685404800,
-        "id": "6"
+        "arePenaltiesApply": true,
+        "id": "old-6"
     },
     {
         "wakeUp": 480,
@@ -85,7 +92,8 @@ export default [
         "distance": 4.5,
         "money": 110,
         "date": 1685318400,
-        "id": "5"
+        "arePenaltiesApply": true,
+        "id": "old-5"
     },
     {
         "wakeUp": 510,
@@ -96,7 +104,8 @@ export default [
         "distance": 4.5,
         "money": 160,
         "date": 1685232000,
-        "id": "4"
+        "arePenaltiesApply": true,
+        "id": "old-4"
     },
     {
         "wakeUp": 540,
@@ -107,7 +116,8 @@ export default [
         "distance": 3,
         "money": 60,
         "date": 1685145600,
-        "id": "3"
+        "arePenaltiesApply": true,
+        "id": "old-3"
     },
     {
         "wakeUp": 540,
@@ -118,7 +128,8 @@ export default [
         "distance": 4,
         "money": 230,
         "date": 1685059200,
-        "id": "2"
+        "arePenaltiesApply": true,
+        "id": "old-2"
     },
     {
         "wakeUp": 540,
@@ -129,6 +140,21 @@ export default [
         "distance": 4,
         "money": 230,
         "date": 1684972800,
+        "arePenaltiesApply": true,
+        "id": "old-1"
+    },  
+    {
+        "wakeUp": 540,
+        "goToSleep": 60,
+        "learning": 0,
+        "sports": 0,
+        "cooking": 0,
+        "distance": 0,
+        "money": 0,
+        "date": 1686009600,
+        "arePenaltiesApply": false,
         "id": "1"
     }
 ]
+
+export {}

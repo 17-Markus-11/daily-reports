@@ -20,7 +20,8 @@ class Reports extends Component<Props> {
         wakeUp: 9*60,
         goToSleep: 0,
         money: 0,
-        date: getTodaysTimestamp()
+        date: getTodaysTimestamp(),
+        arePenaltiesApply: true
     }
 
     componentDidMount() {

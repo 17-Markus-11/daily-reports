@@ -39,13 +39,13 @@ class Report extends Component<Props> {
 
         let money = 0;
         money += Math.min(6, this.state.learning) * 10;
-        money += Math.min(1, this.state.sports) * 60;
+        money += Math.min(2, this.state.sports) * 60;
         money += Math.min(5, this.state.cooking) * 10;
         money += this.state.distance >= 4 ? 20 : 0;
         money += isWakeUpInTime ? 30 : 0;
         money += isGoToSleepInTime ? 30 : 0;
 
-        if (!isWeekend) {
+        if (!isWeekend && this.props.item.arePenaltiesApply) {
             money -= this.state.sports < 1 ? 30 : 0;
             money -= this.state.learning < 2 ? 30 : 0;
 
@@ -93,8 +93,9 @@ class Report extends Component<Props> {
             cooking: this.state.cooking,
             wakeUp: this.state.wakeUp,
             goToSleep: this.state.goToSleep,
-            money: this.props.item.money,
-            date: getTodaysTimestamp()
+            money: this.getCalculatedMoney(),
+            date: getTodaysTimestamp(),
+            arePenaltiesApply: this.props.item.arePenaltiesApply
         };
 
         this.props.onEdit(this.props.item.id, updatedReport);
@@ -127,31 +128,31 @@ class Report extends Component<Props> {
                     <div className={style.date}>{getLocaleDateString(this.props.item.date)}</div>
                     <div className={style.timeTrack}>
                         <div className={style.activityTrack}> 
-                            <ValuePicker isEditable={isEditable} value={this.state.wakeUp} step={30} type={ValuePickerTypes.Date} onChange={this.onWakeUpTimeChange} />
+                            <ValuePicker isEditable={isEditable} value={this.state.wakeUp} step={30} unit={""} type={ValuePickerTypes.Date} onChange={this.onWakeUpTimeChange} />
                             <span>Підйом</span>
                         </div>
                         <span>-</span>
                         <div className={style.activityTrack}>
                             <span>Відбій</span>
-                            <ValuePicker isEditable={isEditable} value={this.state.goToSleep} step={30} type={ValuePickerTypes.Date} onChange={this.onGoToSleepTimeChange} />
+                            <ValuePicker isEditable={isEditable} value={this.state.goToSleep} step={30} unit={""} type={ValuePickerTypes.Date} onChange={this.onGoToSleepTimeChange} />
                         </div>
                     </div>
                     <div className={style.activityTrack}>
                         <div className={style.activity}>
                             <span className={style.name}>Дистанція</span>
-                            <ValuePicker isEditable={isEditable} value={this.state.distance} step={0.5} type={ValuePickerTypes.Number} onChange={this.onDistanceActivityChange} />
+                            <ValuePicker isEditable={isEditable} value={this.state.distance} step={0.5} unit={"км."} type={ValuePickerTypes.Number} onChange={this.onDistanceActivityChange} />
                         </div>
                         <div className={style.activity}>
                             <span className={style.name}>Спорт</span>
-                            <ValuePicker isEditable={isEditable} value={this.state.sports} step={1} type={ValuePickerTypes.Number} onChange={this.onSportsActivityChange} />
+                            <ValuePicker isEditable={isEditable} value={this.state.sports} step={1} unit={"год."} type={ValuePickerTypes.Number} onChange={this.onSportsActivityChange} />
                         </div>
                         <div className={style.activity}>
                             <span className={style.name}>Навчання</span>
-                            <ValuePicker isEditable={isEditable} value={this.state.learning} step={1} type={ValuePickerTypes.Number} onChange={this.onLearningActivityChange} />
+                            <ValuePicker isEditable={isEditable} value={this.state.learning} step={1} unit={"год."} type={ValuePickerTypes.Number} onChange={this.onLearningActivityChange} />
                         </div>
                         <div className={style.activity}>
                             <span className={style.name}>Кулінарія</span>
-                            <ValuePicker isEditable={isEditable} value={this.state.cooking} step={1} type={ValuePickerTypes.Number} onChange={this.onCookingActivityChange} />
+                            <ValuePicker isEditable={isEditable} value={this.state.cooking} step={1} unit={"раз."} type={ValuePickerTypes.Number} onChange={this.onCookingActivityChange} />
                         </div>
                     </div>
                 </div>

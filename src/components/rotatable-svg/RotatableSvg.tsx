@@ -13,8 +13,8 @@ type Props = {
 class RotatableSvg extends Component<Props> {
     render(): ReactNode {
         const styles : React.CSSProperties = {
-            top: this.props.top, 
-            left: this.props.left, 
+            top: this.props.top,
+            left: this.props.left,
             width: this.props.width
         };        
 

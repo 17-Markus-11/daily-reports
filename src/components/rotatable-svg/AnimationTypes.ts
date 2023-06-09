@@ -1,4 +1,6 @@
 export enum AnimationTypes {
     Swing,
-    SwingOposite
+    SwingOposite,
+    JumpSpin,
+    FastSpin
 }

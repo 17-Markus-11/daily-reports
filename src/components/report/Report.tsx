@@ -31,8 +31,6 @@ class Report extends Component<Props> {
     
     getCalculatedMoney = (): number => {
         const currentDay = getDayOfWeek(this.props.item.date);
-        console.log(currentDay);
-        
         const isWeekend = currentDay === 6 || currentDay === 0;
         const isWakeUpInTime = this.state.wakeUp <= 9 * 60;
         const isGoToSleepInTime = (this.state.goToSleep >= 19 * 60 && this.state.goToSleep < 24 * 60) || this.state.goToSleep <= 1 * 60;

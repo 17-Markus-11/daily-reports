@@ -63,9 +63,7 @@ class ValuePicker extends Component<Props> {
             <div className={style.container}>
                 {
                     this.props.isEditable &&
-                        <div className={style.pickerTop} onClick={this.incrementValue}>
-                            <span>+</span>
-                        </div>
+                        <div className={style.pickerTop} onClick={this.incrementValue} />
                 }
                 
                 <div className={style.data}>
@@ -78,9 +76,7 @@ class ValuePicker extends Component<Props> {
 
                 {
                     this.props.isEditable &&
-                        <div className={style.pickerBottom} onClick={this.decrementValue}>
-                            <span>-</span>
-                        </div>
+                        <div className={style.pickerBottom} onClick={this.decrementValue} />
                 }
             </div>
         );

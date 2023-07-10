@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/daily-reports/static/css/main.9b2fa377.css",
-    "main.js": "/daily-reports/static/js/main.76781c9c.js",
+    "main.css": "/daily-reports/static/css/main.f6dcc2e5.css",
+    "main.js": "/daily-reports/static/js/main.81820503.js",
     "static/media/sponge-bob.svg": "/daily-reports/static/media/sponge-bob.f98073d8d55370e6db4e23e384503aac.svg",
     "static/media/flowerpot.svg": "/daily-reports/static/media/flowerpot.9de778de2914f26ec18436ff3e866515.svg",
     "static/media/vagina.svg": "/daily-reports/static/media/vagina.638230c165ef88685fa1cea6592456ac.svg",
@@ -18,11 +18,11 @@
     "index.html": "/daily-reports/index.html",
     "static/media/star.svg": "/daily-reports/static/media/star.8c42d7fa484e4c9c7c14a1c483af5ab8.svg",
     "static/media/flower.svg": "/daily-reports/static/media/flower.db1a1676ceab10f7b398cf53f1b3df27.svg",
-    "main.9b2fa377.css.map": "/daily-reports/static/css/main.9b2fa377.css.map",
-    "main.76781c9c.js.map": "/daily-reports/static/js/main.76781c9c.js.map"
+    "main.f6dcc2e5.css.map": "/daily-reports/static/css/main.f6dcc2e5.css.map",
+    "main.81820503.js.map": "/daily-reports/static/js/main.81820503.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b2fa377.css",
-    "static/js/main.76781c9c.js"
+    "static/css/main.f6dcc2e5.css",
+    "static/js/main.81820503.js"
   ]
 }
